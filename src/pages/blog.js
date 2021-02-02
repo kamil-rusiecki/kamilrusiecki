@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const BlogPage = () => (
     <div>
-        hello
+        helleo
     </div>
 )
 

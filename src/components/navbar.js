@@ -3,14 +3,14 @@ import { Link } from 'gatsby'
 
 const Navbar = () => {
     return (
-        <nav className="font-ms flex">
-            <span className="flex-1">
+        <nav className="flex justify-between px-12 py-10">
+            <span className="font-semibold">
                 <Link to="/">Kamil Rusiecki</Link>
             </span>
-            <ul className="flex-2 inline-flex">
-                <li className="flex-1"><Link to="/casestudies/">Case studies</Link></li>
-                <li className="flex-2"><Link to="/blog">Blog</Link></li>
-                <li className="flex-3"><Link to="/about/">About me</Link></li>
+            <ul className="flex space-x-3 font-light">
+                <li className=""><Link to="/casestudies/">Case studies</Link></li>
+                <li className=""><Link to="/blog">Blog</Link></li>
+                <li className=""><Link to="/about/">About me</Link></li>
             </ul>
         </nav >
     )
