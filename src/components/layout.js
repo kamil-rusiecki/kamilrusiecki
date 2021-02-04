@@ -3,13 +3,13 @@ import Navbar from './navbar'
 import Footer from './footer'
 const layout = ({ children }) => {
     return (
-        <body className="font-ms text-gray-700">
+        <div className="font-ms text-gray-700 flex flex-col h-screen justify-between" >
             <Navbar />
-            <main className=" px-12">
+            <main className=" px-12 mb-auto">
                 {children}
             </main>
             <Footer />
-        </body>
+        </div>
     )
 }
 
